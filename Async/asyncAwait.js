@@ -30,7 +30,7 @@ async function adios(nombre){
 async function main(){
     let nombre = await hola('Kevin'); // Los await deben estar dentro de funciones
     await hablar();
-    await hablar();
+    await hablar();             //El await convierte las promesas aqui en procesos sincronos, queremos que una funcion se realice en segundo plano, le quitamos el await, lo que quede por fuera seran procesos asincronos
     await adios(nombre);
 }
 main();
