@@ -12,7 +12,7 @@ function router(req, res){
         res.write('Error 404: No se lo que quieres');
         res.end();    
     }
-    // res.writeHead(201,{ 'Content-Type': 'text/plain' })
+    // res.writeHead(201,{ 'Content-Type': 'text/plain' }) - Aqui generamos un codigo de error en el header, solo aparece en el inspencionar
     // res.write('Hola, ya se usar http de NodeJS')
     
     
