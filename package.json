@@ -1,0 +1,27 @@
+{
+  "name": "fundamentos_nodejs",
+  "version": "1.0.0",
+  "description": "Aprendiendo sobre los fundamentos principales de Noje.js. Platzi",
+  "main": "Fundamenos-Nojde.js",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "is-number": "^6.0.0",
+    "is-odd": "^3.0.1",
+    "moment": "^2.29.4",
+    "sharp": "^0.31.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Zapata/Fundamenos-Nojde.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevin-Zapata/Fundamenos-Nojde.js/issues"
+  },
+  "homepage": "https://github.com/Kevin-Zapata/Fundamenos-Nojde.js#readme"
+}
